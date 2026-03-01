@@ -15,12 +15,21 @@ Currently focused on distributed services, practical ML integration, and shippin
 
 ## Featured Projects
 
-<div class="grid__wrapper">
 {% assign featured_projects = site.portfolio | sort: "date" | reverse %}
+{% if featured_projects.size > 0 %}
+<ul>
 {% for post in featured_projects limit: 3 %}
-  {% include archive-single.html type="grid" %}
+  <li>
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    {% if post.excerpt %}
+    - {{ post.excerpt | markdownify | strip_html | strip_newlines }}
+    {% endif %}
+  </li>
 {% endfor %}
-</div>
+</ul>
+{% else %}
+No projects yet. Add items under the `_portfolio` folder.
+{% endif %}
 
 [View all projects]({{ base_path }}/projects/)
 
