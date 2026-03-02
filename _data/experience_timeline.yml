@@ -1,0 +1,47 @@
+- id: tencent_backend_intern
+  period: "May 2025 - Sep 2025"
+  role: "Backend Intern"
+  org: "Tencent"
+  location: "Shenzhen, China"
+  category: "industry"
+  logo_kind: "corp"
+  highlights:
+    - "Built core services for Tencent's overseas advertising platform."
+    - "Delivered an end-to-end ad delivery pipeline sustaining peak traffic of 600K+ QPS."
+    - "Built a DAG-based orchestration engine for parallel execution and dependency management."
+    - "Reduced deployment latency from 8 minutes to 2 minutes on AWS EKS."
+
+- id: bfsai_core_team_lead
+  period: "Sep 2024 - Present"
+  role: "Co-Founder, President and Core Team Lead"
+  org: "Bristol Formula Student AI"
+  location: "Bristol, UK"
+  category: "leadership"
+  logo_kind: "team"
+  highlights:
+    - "Co-founded and led a 50-member team building an autonomous driving stack."
+    - "Defined architecture across perception, localization, and control."
+    - "Built a YOLO11 cone detection pipeline with ZED stereo camera integration."
+
+- id: bristol_teaching_assistant
+  period: "Sep 2025 - May 2026"
+  role: "Teaching Assistant (Graduate Teacher Level 2)"
+  org: "University of Bristol"
+  location: "Bristol, UK"
+  category: "academic"
+  logo_kind: "building"
+  highlights:
+    - "Mentored second-year software engineering teams on implementation and project management."
+    - "Supported deliverable evaluation and practical agile adoption."
+
+- id: zju_research_intern
+  period: "Jul 2024 - Aug 2024"
+  role: "Research Intern"
+  org: "CCNT Lab, Zhejiang University"
+  location: "Hangzhou, China"
+  category: "academic"
+  logo_kind: "lab"
+  highlights:
+    - "Evaluated sensor fusion and SLAM reliability under varied environments."
+    - "Designed a ROS-based safety broadcast module with less than 50ms real-time alerting."
+    - "Ran stress tests in high-temperature environments and identified system bottlenecks."

@@ -1,0 +1,124 @@
+.experience-timeline {
+  margin-top: 0.5rem;
+}
+
+.experience-timeline__group {
+  margin-bottom: 1.75rem;
+}
+
+.experience-timeline__group-title {
+  margin-bottom: 0.75rem;
+}
+
+.experience-timeline__list {
+  position: relative;
+}
+
+.experience-timeline__list::before {
+  background: var(--global-border-color);
+  content: "";
+  left: 31px;
+  position: absolute;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  width: 2px;
+}
+
+.experience-timeline__item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.experience-timeline__logo {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 64px;
+  justify-content: center;
+  z-index: 1;
+}
+
+.experience-timeline__logo-badge {
+  align-items: center;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 14px;
+  color: var(--global-link-color);
+  display: inline-flex;
+  font-size: 1.05rem;
+  height: 58px;
+  justify-content: center;
+  width: 58px;
+}
+
+.experience-timeline__content {
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  flex: 1;
+  padding: 0.8rem 1rem 0.7rem;
+}
+
+.experience-timeline__header {
+  align-items: baseline;
+  display: flex;
+  gap: 0.65rem;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+}
+
+.experience-timeline__role {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.experience-timeline__period {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.experience-timeline__org {
+  font-weight: 600;
+  margin: 0 0 0.2rem;
+}
+
+.experience-timeline__location {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  margin: 0 0 0.45rem;
+}
+
+.experience-timeline__highlights {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.experience-timeline__highlights li {
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 600px) {
+  .experience-timeline__list::before {
+    left: 22px;
+  }
+
+  .experience-timeline__logo {
+    flex: 0 0 46px;
+  }
+
+  .experience-timeline__logo-badge {
+    border-radius: 10px;
+    font-size: 0.9rem;
+    height: 42px;
+    width: 42px;
+  }
+
+  .experience-timeline__header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.12rem;
+  }
+}

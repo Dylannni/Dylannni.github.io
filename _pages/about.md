@@ -69,14 +69,14 @@ I use this section to write technical notes and project reflections.
 <div style="margin-top: 0.5rem; text-align: center;">
   <script
     type="text/javascript"
-    id="clustrmaps"
-    src="https://clustrmaps.com/map_v2.js?d=eA5xcTFMwdBZ7-AsdnfGEKEHVU1pLQFIPvzHIKAl1rA&cl=ffffff&w=a">
+    id="mapmyvisitors"
+    src="https://mapmyvisitors.com/map.js?d=oc2H0Wc6hZN5ompE5XYLlgr_zhkGMaKqJlwayt7w690&cl=ffffff&w=a">
   </script>
   <noscript>
-    <a href="https://clustrmaps.com/site/1c12r" title="ClustrMaps visitor map">
-      <img src="https://clustrmaps.com/map_v2.png?d=eA5xcTFMwdBZ7-AsdnfGEKEHVU1pLQFIPvzHIKAl1rA&cl=ffffff" alt="Visitor map" />
+    <a href="https://mapmyvisitors.com/web/1c2y9" title="Visit tracker">
+      <img src="https://mapmyvisitors.com/map.png?d=oc2H0Wc6hZN5ompE5XYLlgr_zhkGMaKqJlwayt7w690&cl=ffffff" alt="Visitor map" />
     </a>
   </noscript>
 </div>
 
-Open full stats on [ClustrMaps](https://clustrmaps.com/site/1c12r).
+Open full stats on [MapMyVisitors](https://mapmyvisitors.com/web/1c2y9).
