@@ -1,10 +1,48 @@
+- id: bristol_bsc_cs
+  period: "Ongoing"
+  role: "BSc Computer Science"
+  org: "University of Bristol"
+  location: "Bristol, UK"
+  category: "education"
+  logo_kind: "building"
+  logo_path: "images/bristol.webp"
+  logo_alt: "University of Bristol"
+  highlights:
+    - "Undergraduate studies in computer science with focus on software systems and machine learning."
+
+- id: charterhouse_a_levels
+  period: "A-Levels"
+  role: "A-Level Studies"
+  org: "Charterhouse School"
+  location: "Godalming, UK"
+  category: "education"
+  logo_kind: "building"
+  logo_path: "images/charterhouse-school.png"
+  logo_alt: "Charterhouse School"
+  highlights:
+    - "Completed A-Level studies before university."
+
+- id: wellington_gcse
+  period: "GCSEs"
+  role: "GCSE Studies"
+  org: "Wellington School, Somerset"
+  location: "Somerset, UK"
+  category: "education"
+  logo_kind: "building"
+  logo_path: "images/wellington-school.png"
+  logo_alt: "Wellington School"
+  highlights:
+    - "Completed GCSE studies."
+
 - id: tencent_backend_intern
   period: "May 2025 - Sep 2025"
   role: "Backend Intern"
   org: "Tencent"
   location: "Shenzhen, China"
-  category: "industry"
+  category: "professional"
   logo_kind: "corp"
+  logo_path: "images/Tencent.avif"
+  logo_alt: "Tencent"
   highlights:
     - "Built core services for Tencent's overseas advertising platform."
     - "Delivered an end-to-end ad delivery pipeline sustaining peak traffic of 600K+ QPS."
@@ -18,6 +56,8 @@
   location: "Bristol, UK"
   category: "leadership"
   logo_kind: "team"
+  logo_path: "images/fsai-logo.png"
+  logo_alt: "Bristol Formula Student AI"
   highlights:
     - "Co-founded and led a 50-member team building an autonomous driving stack."
     - "Defined architecture across perception, localization, and control."
@@ -28,8 +68,10 @@
   role: "Teaching Assistant (Graduate Teacher Level 2)"
   org: "University of Bristol"
   location: "Bristol, UK"
-  category: "academic"
+  category: "professional"
   logo_kind: "building"
+  logo_path: "images/bristol.webp"
+  logo_alt: "University of Bristol"
   highlights:
     - "Mentored second-year software engineering teams on implementation and project management."
     - "Supported deliverable evaluation and practical agile adoption."
@@ -39,8 +81,10 @@
   role: "Research Intern"
   org: "CCNT Lab, Zhejiang University"
   location: "Hangzhou, China"
-  category: "academic"
+  category: "professional"
   logo_kind: "lab"
+  logo_path: "images/Zhejiang_University_Logo.svg"
+  logo_alt: "Zhejiang University"
   highlights:
     - "Evaluated sensor fusion and SLAM reliability under varied environments."
     - "Designed a ROS-based safety broadcast module with less than 50ms real-time alerting."
