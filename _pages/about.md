@@ -9,9 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-I am a BSc Computer Science student at the University of Bristol.
+## Hi there, welcome to my portfolio website
 
-I build backend systems and AI-enabled products, with interests in multimodal machine learning and reliable production infrastructure.
+I am **Zehao (Dylan) Lin**, a BSc Computer Science student at the University of Bristol.
+
+- Backend Intern at Tencent (Summer 2025)
+- Co-Founder and President at Bristol Formula Student AI
+- Interested in multimodal machine learning and production backend systems
+
+## Recent Work
+
+- Built an ad delivery pipeline at Tencent handling **600K+ QPS**.
+- Reduced deployment latency from **8 minutes to 2 minutes** on AWS EKS.
+- Achieved **Top 10%** (2000+ teams) in Tencent Advertising Algorithms Competition.
 
 ## Featured Projects
 
@@ -41,15 +51,9 @@ No projects yet. Add items under the `_portfolio` folder.
 
 [See full experience]({{ base_path }}/experience/)
 
-## Recent Blogs
+## Blogs
 
-{% if site.posts.size > 0 %}
-{% for post in site.posts limit: 3 %}
-  {% include archive-single.html %}
-{% endfor %}
-{% else %}
-No posts yet. This section is ready for your technical writeups.
-{% endif %}
+I use this section to write technical notes and project reflections.
 
 [View all blogs]({{ base_path }}/blogs/)
 
@@ -62,13 +66,17 @@ No posts yet. This section is ready for your technical writeups.
 
 ## Visitor Map
 
-<div style="margin-top: 0.5rem;">
-  <iframe
-    title="Visitor map"
-    src="https://clustrmaps.com/site/1c12r"
-    loading="lazy"
-    style="width: 100%; max-width: 820px; height: 320px; border: 0;">
-  </iframe>
+<div style="margin-top: 0.5rem; text-align: center;">
+  <script
+    type="text/javascript"
+    id="clustrmaps"
+    src="https://clustrmaps.com/map_v2.js?d=eA5xcTFMwdBZ7-AsdnfGEKEHVU1pLQFIPvzHIKAl1rA&cl=ffffff&w=a">
+  </script>
+  <noscript>
+    <a href="https://clustrmaps.com/site/1c12r" title="ClustrMaps visitor map">
+      <img src="https://clustrmaps.com/map_v2.png?d=eA5xcTFMwdBZ7-AsdnfGEKEHVU1pLQFIPvzHIKAl1rA&cl=ffffff" alt="Visitor map" />
+    </a>
+  </noscript>
 </div>
 
-If the embed does not load, open the full map on [ClustrMaps](https://clustrmaps.com/site/1c12r).
+Open full stats on [ClustrMaps](https://clustrmaps.com/site/1c12r).
