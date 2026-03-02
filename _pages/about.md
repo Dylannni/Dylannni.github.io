@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zehao (Dylan) Lin"
+title: null
 author_profile: true
 redirect_from:
   - /about/
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Hi there, welcome to my portfolio website
+## Welcome!
 
 I am **Zehao (Dylan) Lin**, a BSc Computer Science student at the University of Bristol.
 
@@ -56,13 +56,6 @@ No projects yet. Add items under the `_portfolio` folder.
 I use this section to write technical notes and project reflections.
 
 [View all blogs]({{ base_path }}/blogs/)
-
-## Contact
-
-- Phone: +44 7539 982259
-- Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
-- GitHub: [{{ site.author.github }}](https://github.com/{{ site.author.github }})
-- LinkedIn: [{{ site.author.linkedin }}](https://www.linkedin.com/in/{{ site.author.linkedin }})
 
 ## Visitor Map
 
