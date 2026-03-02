@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-I build backend systems and AI-enabled products.
+I am a BSc Computer Science student at the University of Bristol.
 
-Currently focused on distributed services, practical ML integration, and shipping production-ready features.
+I build backend systems and AI-enabled products, with interests in multimodal machine learning and reliable production infrastructure.
 
 ## Featured Projects
 
@@ -35,13 +35,13 @@ No projects yet. Add items under the `_portfolio` folder.
 
 ## Experience Snapshot
 
-- Backend and platform engineering experience across internship and academic projects.
-- Focus on API design, data pipelines, and service reliability.
-- Comfortable moving from prototype to production.
+- Backend Intern at Tencent, where I helped build an ad delivery pipeline handling 600K+ QPS.
+- Reduced deployment latency from 8 minutes to 2 minutes by improving containerized CI/CD on AWS EKS.
+- Co-founded Bristol Formula Student AI and led a 50-member team building an autonomous driving system.
 
 [See full experience]({{ base_path }}/experience/)
 
-## Recent Writing
+## Recent Blogs
 
 {% if site.posts.size > 0 %}
 {% for post in site.posts limit: 3 %}
@@ -51,10 +51,11 @@ No projects yet. Add items under the `_portfolio` folder.
 No posts yet. This section is ready for your technical writeups.
 {% endif %}
 
-[View all writing]({{ base_path }}/writing/)
+[View all blogs]({{ base_path }}/blogs/)
 
 ## Contact
 
+- Phone: +44 7539 982259
 - Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
 - GitHub: [{{ site.author.github }}](https://github.com/{{ site.author.github }})
 - LinkedIn: [{{ site.author.linkedin }}](https://www.linkedin.com/in/{{ site.author.linkedin }})

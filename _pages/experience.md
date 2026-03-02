@@ -7,27 +7,37 @@ author_profile: true
 
 {% include base_path %}
 
-## Professional Experience
+## Industry
 
-### Tencent - Backend Intern
-- Built and maintained backend services for internal platform workflows.
-- Worked on API implementation, data handling, and service quality improvements.
-- Collaborated with product and engineering teams to ship production features.
+### Backend Intern, Tencent (May 2025-Sep 2025)
+- Built core services for Tencent's overseas advertising platform.
+- Delivered an end-to-end ad delivery pipeline sustaining peak traffic of 600K+ QPS.
+- Built a DAG-based orchestration engine for parallel execution and dependency management.
+- Implemented ADX-OP integration with OpenRTB parsing and unified VAST/Native/Banner response handling.
+- Improved deployment workflow on AWS EKS and reduced deployment latency from 8 minutes to 2 minutes.
 
-### Additional Engineering Work
-- Add your other internships, part-time roles, or engineering collaborations here.
+## Leadership
 
-## Technical Focus
+### Co-Founder, President and Core Team Lead, Bristol Formula Student AI (Sep 2024-Present)
+- Co-founded and led a 50-member team building an autonomous driving stack for Formula Student AI.
+- Defined architecture across perception, localization, and control.
+- Built YOLO11 cone detection pipeline with ZED stereo camera integration.
+- Set up distributed development and hardware-in-the-loop testing workflow.
 
-- Backend: Python, Java, service architecture, APIs
-- Data/Infra: Databases, queue-based workflows, observability
-- Product Engineering: End-to-end delivery from idea to deployment
+## Academic and Research
+
+### Teaching Assistant, University of Bristol (Sep 2025-May 2026)
+- Mentored second-year software engineering teams on implementation and project management.
+- Supported deliverable evaluation and practical agile adoption.
+
+### Research Intern, CCNT Lab, Zhejiang University (Jul 2024-Aug 2024)
+- Evaluated sensor fusion and SLAM reliability under varied environments.
+- Designed ROS-based safety broadcast module with <50ms real-time alerting.
+- Ran stress tests in high-temperature environments and identified system bottlenecks.
 
 ## Selected Impact
 
-- Replace this section with measurable outcomes (latency, throughput, bugs reduced, user impact).
-- Keep each bullet concise and quantifiable when possible.
-
-## Timeline
-
-- Add role timelines here in reverse chronological order.
+- 600K+ QPS peak throughput on production-grade ad delivery path.
+- 4x faster deployment cycle (8 min -> 2 min).
+- 3.3x score gain in Tencent ad recommendation competition (0.023 -> 0.076).
+- 23.7% accuracy improvement on mmWave radar human pose recognition.
