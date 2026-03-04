@@ -7,8 +7,7 @@
   logo_kind: "building"
   logo_path: "images/bristol.webp"
   logo_alt: "University of Bristol"
-  highlights:
-    - "Undergraduate studies in computer science with focus on software systems and machine learning."
+  highlights: []
 
 - id: charterhouse_a_levels
   period: "A-Levels"
@@ -19,8 +18,7 @@
   logo_kind: "building"
   logo_path: "images/charterhouse-school.png"
   logo_alt: "Charterhouse School"
-  highlights:
-    - "Completed A-Level studies before university."
+  highlights: []
 
 - id: wellington_gcse
   period: "GCSEs"
@@ -31,8 +29,7 @@
   logo_kind: "building"
   logo_path: "images/wellington-school.png"
   logo_alt: "Wellington School"
-  highlights:
-    - "Completed GCSE studies."
+  highlights: []
 
 - id: tencent_backend_intern
   period: "May 2025 - Sep 2025"

@@ -82,11 +82,28 @@
   margin: 0;
 }
 
+.experience-timeline__org-heading {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
 .experience-timeline__period {
   color: var(--global-text-color-light);
   font-size: 0.92rem;
   margin: 0;
   white-space: nowrap;
+}
+
+.experience-timeline__education-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  margin: 0;
+  text-align: right;
+}
+
+.experience-timeline__education-degree {
+  font-weight: 600;
+  margin: 0;
 }
 
 .experience-timeline__org {
@@ -129,5 +146,13 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 0.12rem;
+  }
+
+  .experience-timeline__education-meta {
+    text-align: left;
+  }
+
+  .experience-timeline__org-heading {
+    font-size: 1.3rem;
   }
 }
