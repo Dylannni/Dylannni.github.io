@@ -1,5 +1,5 @@
 - id: bristol_bsc_cs
-  period: "Ongoing"
+  period: "2023 - 2026"
   role: "BSc Computer Science"
   org: "University of Bristol"
   location: "Bristol, UK"
@@ -7,22 +7,24 @@
   logo_kind: "building"
   logo_path: "images/bristol.webp"
   logo_alt: "University of Bristol"
-  highlights: []
+  highlights:
+    - "Expected First Class Honours."
 
 - id: charterhouse_a_levels
-  period: "A-Levels"
-  role: "A-Level Studies"
+  period: "2021 - 2023"
+  role: "A-Levels"
   org: "Charterhouse School"
   location: "Godalming, UK"
   category: "education"
   logo_kind: "building"
   logo_path: "images/charterhouse-school.png"
   logo_alt: "Charterhouse School"
-  highlights: []
+  highlights:
+    - "Head's Prize 2023."
 
 - id: wellington_gcse
-  period: "GCSEs"
-  role: "GCSE Studies"
+  period: "2019 - 2021"
+  role: "GCSEs"
   org: "Wellington School, Somerset"
   location: "Somerset, UK"
   category: "education"
@@ -30,6 +32,18 @@
   logo_path: "images/wellington-school.png"
   logo_alt: "Wellington School"
   highlights: []
+
+- id: bristol_teaching_assistant
+  period: "Sep 2025 - Jun 2026"
+  role: "Teaching Assistant"
+  org: "University of Bristol"
+  location: "Bristol, UK"
+  category: "professional"
+  logo_kind: "building"
+  logo_path: "images/bristol.webp"
+  logo_alt: "University of Bristol"
+  highlights:
+    - "Graduate Teacher Level 2 for COMS20006 Software Engineering Project 25/26."
 
 - id: tencent_backend_intern
   period: "May 2025 - Sep 2025"
@@ -41,10 +55,7 @@
   logo_path: "images/Tencent.avif"
   logo_alt: "Tencent"
   highlights:
-    - "Built core services for Tencent's overseas advertising platform."
-    - "Delivered an end-to-end ad delivery pipeline sustaining peak traffic of 600K+ QPS."
-    - "Built a DAG-based orchestration engine for parallel execution and dependency management."
-    - "Reduced deployment latency from 8 minutes to 2 minutes on AWS EKS."
+    - "AMS, CDG - Worked on Tencent overseas advertising; focused on the Ad Serving Pipeline (ADX) with OpenRTB protocol and AWS infrastructure."
 
 - id: bfsai_core_team_lead
   period: "Sep 2024 - Present"
@@ -56,22 +67,7 @@
   logo_path: "images/fsai-logo.png"
   logo_alt: "Bristol Formula Student AI"
   highlights:
-    - "Co-founded and led a 50-member team building an autonomous driving stack."
-    - "Defined architecture across perception, localization, and control."
-    - "Built a YOLO11 cone detection pipeline with ZED stereo camera integration."
-
-- id: bristol_teaching_assistant
-  period: "Sep 2025 - May 2026"
-  role: "Teaching Assistant (Graduate Teacher Level 2)"
-  org: "University of Bristol"
-  location: "Bristol, UK"
-  category: "professional"
-  logo_kind: "building"
-  logo_path: "images/bristol.webp"
-  logo_alt: "University of Bristol"
-  highlights:
-    - "Mentored second-year software engineering teams on implementation and project management."
-    - "Supported deliverable evaluation and practical agile adoption."
+    - "Co-founded and led a 50-member core team building an autonomous driving system."
 
 - id: zju_research_intern
   period: "Jul 2024 - Aug 2024"
@@ -83,6 +79,4 @@
   logo_path: "images/Zhejiang_University_Logo.svg"
   logo_alt: "Zhejiang University"
   highlights:
-    - "Evaluated sensor fusion and SLAM reliability under varied environments."
-    - "Designed a ROS-based safety broadcast module with less than 50ms real-time alerting."
-    - "Ran stress tests in high-temperature environments and identified system bottlenecks."
+    - "Worked on autonomous sweeper vehicle RoboNeo S142."

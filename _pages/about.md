@@ -9,26 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-## Welcome!
+## About Me
 
-I am **Zehao (Dylan) Lin**, a BSc Computer Science student at the University of Bristol.
+Hi, I'm **Zehao (Dylan) Lin**, a final-year Computer Science student at the University of Bristol. I interned at Tencent where I built ad-serving infrastructure handling 600K+ QPS, and co-founded Bristol Formula Student AI — leading a 50-member team building an autonomous driving system. I also won Apple's Swift Student Challenge as a Distinguished Winner (Top 50 Worldwide).
 
-- Backend Intern at Tencent (Summer 2025)
-- Co-Founder and President at Bristol Formula Student AI
-- Interested in multimodal machine learning and production backend systems
-
-## Recent Work
-
-- Built an ad delivery pipeline at Tencent handling **600K+ QPS**.
-- Reduced deployment latency from **8 minutes to 2 minutes** on AWS EKS.
-- Achieved **Top 10%** (2000+ teams) in Tencent Advertising Algorithms Competition.
+I'm interested in production backend systems and multimodal video understanding and egocentric vision.
 
 ## Featured Projects
 
 {% assign featured_projects = site.portfolio | sort: "date" | reverse %}
 {% if featured_projects.size > 0 %}
 <ul>
-{% for post in featured_projects limit: 3 %}
+{% for post in featured_projects limit: 2 %}
   <li>
     <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
     {% if post.excerpt %}
@@ -43,31 +35,21 @@ No projects yet. Add items under the `_portfolio` folder.
 
 [View all projects]({{ base_path }}/projects/)
 
-## Experience Snapshot
-
-- Backend Intern at Tencent, where I helped build an ad delivery pipeline handling 600K+ QPS.
-- Reduced deployment latency from 8 minutes to 2 minutes by improving containerized CI/CD on AWS EKS.
-- Co-founded Bristol Formula Student AI and led a 50-member team building an autonomous driving system.
+## Experience
 
 [See full experience]({{ base_path }}/experience/)
 
-## Blogs
-
-I use this section to write technical notes and project reflections.
-
-[View all blogs]({{ base_path }}/blogs/)
-
 ## Visitor Map
 
-<div style="margin-top: 0.5rem; text-align: center;">
+<div style="margin-top: 0.5rem; text-align: center; max-width: 480px; border: 1px solid var(--global-border-color); border-radius: 10px; padding: 1rem;">
   <script
     type="text/javascript"
     id="mapmyvisitors"
-    src="https://mapmyvisitors.com/map.js?d=oc2H0Wc6hZN5ompE5XYLlgr_zhkGMaKqJlwayt7w690&cl=ffffff&w=a">
+    src="//mapmyvisitors.com/map.js?d=oc2HOWc6hZN5ompE5XYLlgr_zhkGMaKqJlWayt7w690&cl=ffffff&w=a">
   </script>
   <noscript>
     <a href="https://mapmyvisitors.com/web/1c2y9" title="Visit tracker">
-      <img src="https://mapmyvisitors.com/map.png?d=oc2H0Wc6hZN5ompE5XYLlgr_zhkGMaKqJlwayt7w690&cl=ffffff" alt="Visitor map" />
+      <img src="https://mapmyvisitors.com/map.png?d=oc2HOWc6hZN5ompE5XYLlgr_zhkGMaKqJlWayt7w690&cl=ffffff" alt="Visitor map" />
     </a>
   </noscript>
 </div>

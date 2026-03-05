@@ -45,13 +45,12 @@
 
               <div class="experience-timeline__content">
                 {% if category == "education" %}
-                  <header class="experience-timeline__header experience-timeline__header--education">
-                    <h3 class="experience-timeline__org-heading">{{ item.org }}</h3>
-                    <p class="experience-timeline__education-meta">{{ item.location }}</p>
+                  <header class="experience-timeline__header">
+                    <h3 class="experience-timeline__role">{{ item.org }}</h3>
+                    <p class="experience-timeline__period">{{ item.period }}</p>
                   </header>
-                  <p class="experience-timeline__education-degree">
-                    {{ item.role }}{% if item.period %} · {{ item.period }}{% endif %}
-                  </p>
+                  <p class="experience-timeline__org">{{ item.role }}</p>
+                  <p class="experience-timeline__location">{{ item.location }}</p>
                 {% else %}
                   <header class="experience-timeline__header">
                     <h3 class="experience-timeline__role">{{ item.role }}</h3>

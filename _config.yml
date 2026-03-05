@@ -23,7 +23,7 @@ repository               : "Dylannni/Dylannni.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Zehao (Dylan) Lin" 
   pronouns         : # example: "she/her"  
   bio              : "BSc CS at Bristol | ex-Backend Intern at Tencent | Swift Student Challenge Distinguished Winner"
