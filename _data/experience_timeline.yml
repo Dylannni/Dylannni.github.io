@@ -1,3 +1,13 @@
+- id: upenn_mse_ai
+  period: "2026 - Present"
+  role: "MSE Artificial Intelligence"
+  org: "University of Pennsylvania"
+  location: "Online"
+  category: "education"
+  logo_kind: "building"
+  logo_alt: "University of Pennsylvania"
+  highlights: []
+
 - id: bristol_bsc_cs
   period: "2023 - 2026"
   role: "BSc Computer Science"
@@ -8,7 +18,7 @@
   logo_path: "images/bristol.webp"
   logo_alt: "University of Bristol"
   highlights:
-    - "Expected First Class Honours."
+    - "First Class Honours."
 
 - id: charterhouse_a_levels
   period: "2021 - 2023"
@@ -33,8 +43,20 @@
   logo_alt: "Wellington School"
   highlights: []
 
+- id: memories_ai_mts
+  period: "May 2026 - Present"
+  role: "Member of Technical Staff"
+  org: "Memories.ai"
+  location: "San Francisco, US (Hybrid)"
+  category: "professional"
+  logo_kind: "corp"
+  logo_alt: "Memories.ai"
+  highlights:
+    - "Working on the Large Visual Memory Model (LVMM)."
+    - "Egocentric 3D reconstruction: hand pose and head pose, from research to a production pipeline running on 1M+ hours of video."
+
 - id: bristol_teaching_assistant
-  period: "Sep 2025 - Jun 2026"
+  period: "Sep 2025 - May 2026"
   role: "Teaching Assistant"
   org: "University of Bristol"
   location: "Bristol, UK"
@@ -47,7 +69,7 @@
 
 - id: tencent_backend_intern
   period: "May 2025 - Sep 2025"
-  role: "Backend Intern"
+  role: "Backend Engineer Intern"
   org: "Tencent"
   location: "Shenzhen, China"
   category: "professional"
@@ -55,11 +77,11 @@
   logo_path: "images/Tencent.avif"
   logo_alt: "Tencent"
   highlights:
-    - "AMS, CDG - Worked on Tencent overseas advertising; focused on the Ad Serving Pipeline (ADX) with OpenRTB protocol and AWS infrastructure."
+    - "Tencent Ads (AMS, CDG) - Part of the initial engineering team building Tencent Ads' overseas advertising system; backend development for the ad-serving pipeline across ADX, SSP and DSP components, with OpenRTB and AWS infrastructure."
 
 - id: bfsai_core_team_lead
-  period: "Sep 2024 - Present"
-  role: "Co-Founder, President and Core Team Lead"
+  period: "Jun 2024 - Jul 2026"
+  role: "Co-Founder & President"
   org: "Bristol Formula Student AI"
   location: "Bristol, UK"
   category: "leadership"
@@ -68,15 +90,16 @@
   logo_alt: "Bristol Formula Student AI"
   highlights:
     - "Co-founded and led a 50-member core team building an autonomous driving system."
+    - "First-ever Trackdrive at Silverstone: three fully autonomous laps, 7th in the event, and the team's first dynamic points."
 
 - id: zju_research_intern
   period: "Jul 2024 - Aug 2024"
   role: "Research Intern"
   org: "CCNT Lab, Zhejiang University"
-  location: "Hangzhou, China"
+  location: "Wuxi, China"
   category: "professional"
   logo_kind: "lab"
   logo_path: "images/Zhejiang_University_Logo.svg"
   logo_alt: "Zhejiang University"
   highlights:
-    - "Worked on autonomous sweeper vehicle RoboNeo S142."
+    - "Worked on the autonomous sweeper vehicle RoboNeo S142: performance testing for reliability, automated task scheduling on Ubuntu/ROS, and a safety voice module for public interaction."
