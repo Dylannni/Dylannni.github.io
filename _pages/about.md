@@ -11,9 +11,11 @@ redirect_from:
 
 ## About Me
 
-Hi, I'm **Zehao (Dylan) Lin**, a final-year Computer Science student at the University of Bristol. I interned at Tencent where I built ad-serving infrastructure handling 600K+ QPS, and co-founded Bristol Formula Student AI — leading a 50-member team building an autonomous driving system. I also won Apple's Swift Student Challenge as a Distinguished Winner (Top 50 Worldwide).
+Hi, I'm **Zehao (Dylan) Lin**, a Founding Member of Technical Staff at [Memories.ai](https://memories.ai), where I work on the Large Visual Memory Model (LVMM). My focus is egocentric video understanding and 3D human motion reconstruction, including 3D hand pose and 6DoF head pose estimation, taking research all the way to a production pipeline running on 1M+ hours of video. I'm also pursuing an MSE in Artificial Intelligence at the University of Pennsylvania.
 
-I'm interested in production backend systems and multimodal video understanding and egocentric vision.
+I graduated from the University of Bristol with a First Class BSc in Computer Science. Before that, I interned at Tencent, building ad-serving infrastructure handling 600K+ QPS, and co-founded Bristol Formula Student AI, leading a 50-member team whose autonomous driving system completed three fully autonomous laps at Silverstone and earned the team's first-ever dynamic points. I was also a Distinguished Winner (Top 50 Worldwide) of Apple's Swift Student Challenge.
+
+I'm interested in egocentric vision, 3D human motion reconstruction, and multimodal video understanding.
 
 ## Featured Projects
 
