@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Zehao (Dylan) Lin"
 title_separator          : "-"
 name                     : &name "Zehao (Dylan) Lin"  # Update this with your name, this is used in the title and author meta tag
-description              : &description "Backend engineer portfolio and project showcase"
+description              : &description "Research engineer working on egocentric video understanding and 3D human motion reconstruction"
 url                      : https://dylannni.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpeg"
   name             : "Zehao (Dylan) Lin" 
   pronouns         : # example: "she/her"  
-  bio              : "BSc CS at Bristol | ex-Backend Intern at Tencent | Swift Student Challenge Distinguished Winner"
-  location         : "Bristol, United Kingdom"
-  employer         : "University of Bristol"
+  bio              : "Founding MTS @ Memories.ai | MSE AI @ UPenn | BSc CS (First) @ Bristol"
+  location         : "Cambridge, United Kingdom"
+  employer         : "Memories.ai"
   uri              :
   email            : "dylanlin0411@gmail.com" 
 
